@@ -15,3 +15,5 @@ for i in range(len(frame_list)):
         print(f'Percent Difference: {pct_diff:.3f}% -->' + 'Frame ' + str(i) + ' is negative')
     elif pct_diff < threshold:
         print(f'Percent Difference: {pct_diff:.3f}% -->' + 'Frame ' + str(i) + ' is ready to edit out')
+
+#from the output this gives, look at the places where it switches from ready to edit out to negative. Put those into the youtube editor, splitting and cutting along the way/
