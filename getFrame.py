@@ -13,4 +13,4 @@ while success:
   print('Read a new frame: ', success)
   count += 1
 print(frame_list)
-#copy the output this gives into frameCompare.py, naming the list frame_list
+#copy the output this gives into frameCompare.py, naming the list frame_list, or you could put this code in frameCompare, and get the same result
